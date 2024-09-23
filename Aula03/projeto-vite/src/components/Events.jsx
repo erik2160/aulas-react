@@ -60,4 +60,4 @@ function HoverComponent() {
     )
 }
 
-export { ClickButton, InputField, KeyDownComponent, FocusBlurComponent };
+export { ClickButton, InputField, KeyDownComponent, FocusBlurComponent, HoverComponent };

@@ -1,10 +1,22 @@
 import "./App.css";
-import { Calculo } from "./components/Challenge";
+import { SimpleForm } from "./components/SimpleForm";
+
+const User = {
+  name: "Erik",
+  idade: 18,
+  profissao: "Programador"
+}
+
+const OtherUser = {
+  name: "John",
+  idade: 14,
+  profissao: "Desenvolvedor"
+}
 
 function App() {
   return (
     <div>
-      <Calculo />
+      <SimpleForm />
     </div>
   );
 }
